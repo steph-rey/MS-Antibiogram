@@ -5,8 +5,8 @@
 # @DateModified: 01-11-2022 at 12:55PM PT
 
 # Install packages 
-install.packages("AMR")
-install.packages("cleaner")
+  # install.packages("AMR")
+  # install.packages("cleaner")
 
 # Load required packages
 library(tidyverse)
@@ -22,7 +22,7 @@ cs <- cs_raw %>% select(deid_enc_id, order_name, org_name, abx_name, resistance,
 cs_raw <- NULL
 
 # Summarize counts of all abx 
-all_abx <- cs %>% 
+all_abx <- cs %>%
   group_by(abx_name) %>% 
   count() %>% 
   arrange(desc(n), abx_name)
