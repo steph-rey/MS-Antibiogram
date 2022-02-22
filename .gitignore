@@ -44,3 +44,5 @@ data/
 # Ignore .xlsx files (notes)
 *.xlsx 
 
+# Ignore
+/Users/sreynolds2/Documents/GitHub/MS-Antibiogram/list_of_abx_org_and_order_names_in_cs_data.xlsx
