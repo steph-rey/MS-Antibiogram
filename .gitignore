@@ -41,6 +41,6 @@ data/
 # Ignore html files generated from knitting Rmd
 *.html
 
-# Ignore data dictionary 
-list_of_abx_org_and_order_names_in_cs_data.xlsx 
+# Ignore .xlsx files (notes)
+*.xlsx 
 
